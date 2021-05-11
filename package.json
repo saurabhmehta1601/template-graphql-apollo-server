@@ -1,0 +1,16 @@
+{
+  "name": "template-graphql-apollo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:saurabhmehta1601/template-graphql-apollo-server.git",
+  "author": "Saurabh Mehta <saurabhemehta1601@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev" : "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.24.0",
+    "graphql": "^15.5.0"
+  }
+}
